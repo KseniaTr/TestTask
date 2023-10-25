@@ -1,0 +1,30 @@
+
+.allCircle {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.circle {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: #3b39af;
+  border-radius: 50%;
+}
+
+.circle:hover {
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+  transition-duration:  1s;
+}
+
+.block {
+  width:  30%;
+  height: 20px;
+  background: #d7e46a;
+  cursor: pointer;
+  margin-left: 15px;
+}
+.active {
+  background: #a99ae6;
+}
